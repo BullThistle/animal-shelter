@@ -1,4 +1,36 @@
+body {
+  background-image: url(../images/shelter.jpg);
+}
+
+.headers {
+  text-align: center;
+}
+
 .images {
   height: 200px;
   width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  margin: 50px;
+  width: 400px;
+  border: 10px solid black;
+  padding: 10px;
+  height: 750px;
+  /*font-family: 'julee',sans;*/
+}
+
+#one {
+  background-image: url(../images/red-fur.jpg);
+}
+
+#two {
+  background-image: url(../images/white-furr.jpg);
+}
+
+#three {
+  background-image: url(../images/brown-fur.jpg);
 }
