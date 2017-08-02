@@ -1,3 +1,4 @@
+
 body {
   background-image: url(../images/shelter.jpg);
   background-repeat: no-repeat;
@@ -41,4 +42,16 @@ body {
 
 #three {
   background-image: url(../images/brown-fur.jpg);
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-image:url(../images/white-furr.jpg);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .column {
+    background-image:url(../images/red-fur.jpg);
+  }
 }
