@@ -1,5 +1,8 @@
 body {
   background-image: url(../images/shelter.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .headers {
@@ -11,16 +14,21 @@ body {
   width: 350px;
   display: block;
   margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .column {
   float: left;
   margin: 50px;
-  width: 400px;
+  width: 25%;
   border: 10px solid black;
   padding: 10px;
-  height: 750px;
-  /*font-family: 'julee',sans;*/
+  height: 1500px;
+  font-family: 'Amarante';font-size: 22px;
+  color: white;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
 }
 
 #one {
